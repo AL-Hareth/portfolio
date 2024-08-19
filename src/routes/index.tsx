@@ -15,6 +15,7 @@ export default component$(() => {
                             name={site.name}
                             description={site.description}
                             link={site.link}
+                            technologies={site.technologies}
                             imageUrl={site.imageUrl}
                         />
                     )}
